@@ -1,0 +1,32 @@
+footer {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.orangered-color {
+    color: orangered;
+}
+
+.food {
+    font-size: 45px;
+}
+
+footer div {
+    width: 330px;
+    text-align: center;
+}
+
+footer h1 {
+    color: grey;
+}
+
+footer p {
+    color: honeydew;
+}
+
+small {
+    color: crimson;
+}

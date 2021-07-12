@@ -1,0 +1,47 @@
+.restaurant {
+    text-align: center;
+    box-shadow: 0 0 1em gray;
+    margin: 5%;
+    border-radius: 1em;
+    padding-top: 2em;
+    color: rgb(23, 126, 10);
+}
+
+.restaurant img {
+    width: 100%;
+}
+
+.Rechipes-site {
+    display: flex;
+    text-align: center;
+    box-shadow: 0 0 1em gray;
+    margin: 5%;
+    border-radius: 1em;
+}
+
+.networking-side h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.networking-side h4 {
+    font-size: 1em;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .networking-side h3 {
+        font-size: 1.2em;
+    }
+    .networking-side h4 {
+        font-size: 10px;
+    }
+}
+
+.networking-side {
+    width: 100%;
+    margin: 2%;
+    padding: 1em;
+    box-shadow: 0 0 1em rgb(207, 207, 207);
+    border-radius: 1em;
+}

@@ -11,7 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,500;1,300;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/rechipes.css">
+    <link rel="stylesheet" href="style/networking.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/footer.css">
 
 </head>
 
@@ -19,31 +25,41 @@
 
     <nav>
 
-        <ul>
-            <img id="Logo" src="images/food/Logo.png" alt="">
-            <li><a href="">Home</a></li>
-            <li><a href="">Rechipe</a></li>
-            <li><a href="">Food Network</a></li>
-            <li><a href="">About ME</a></li>
+        <div>
+            <a href="index.html"> <img id="Logo" src="images/food/Logo.png" alt=""></a>
+        </div>
+        <span style="margin-left: 50px;">
+            <a id="home" href="index.html">Home</a>
+            <a href="page/Rechipes.html">Rechipe</a>
+            <a href="page/About.html">Networking</a>
+            <a href="page/About.html">About-ME</a>
+        </span>
 
-        </ul>
     </nav>
 
 
-    <section class="hero-img-content flexible-container">
-        <div class="half-width">
+    <section class="hero-img-content">
+        <div class="">
             <h1>
                 <span class="orangered-color"><span style="font-size: 2em;">S</span>kip</span> The Diet,<br> Just Eat
                 Healthy With Food Network
             </h1>
+            <div class="top-img-one">
+
+                <img id="hero-img-backgraoud" src="images/female/6667872_preview-removebg-preview.png"
+                    alt="hero-img-backgraoud">
+
+            </div>
+
             <p>Shift has been working to increase healthier food habits over the last six years.</p>
             <a target="_blank" class="link-button" href="https://www.facebook.com/JsRukon">Order Food</a>
 
         </div>
-        <div class="half-width">
-            <div id="hero-img-backgraoud">
-                <img src="images/female/6667872_preview-removebg-preview.png" alt="hero-img-backgraoud">
-            </div>
+        <div class="top-img">
+
+            <img id="hero-img-backgraoud" src="images/female/6667872_preview-removebg-preview.png"
+                alt="hero-img-backgraoud">
+
         </div>
     </section>
 
@@ -53,12 +69,12 @@
 
 
     <section id="about-me-content" class="flexible-container">
-        <div class="half-width about-me-content-person">
+        <div class="about-me-content-person">
             <img src="images/female/happy-girl-png-free-happy-girlpng-transparent-images-346-pngio-person-girl-png-819_677.png"
                 alt="person">
         </div>
 
-        <div class="half-width">
+        <div class="person-content">
             <h1>
                 <span class="orangered-color"><span style="font-size: 2em;">A</span>BOUT</span> ME
             </h1>
@@ -85,7 +101,7 @@
 
     <section>
         <div class="Rechipes">
-            <h1> <span class="orangered-color"> My </span>Rechipes</h1>
+            <h1> <span class="orangered-color my"> My </span>Rechipes</h1>
             <p>We tweaked these recipes until they were perfect. <br> Give them a try. We bet you'll agree.</p>
         </div>
 
@@ -151,15 +167,15 @@
     <section>
         <div class="Rechipes-site">
             <div class="networking-side">
-                <h1>700k</h1>
+                <h3>700k</h3>
                 <h4>Youtube Subscriber</h4>
             </div>
             <div class="networking-side">
-                <h1>2.4m</h1>
+                <h3>2.4m</h3>
                 <h4>Instagram Followers</h4>
             </div>
             <div class="networking-side">
-                <h1>100k</h1>
+                <h3>100k</h3>
                 <h4>Dribbble Shot Likes</h4>
             </div>
         </div>
@@ -170,8 +186,11 @@
 
 
     <footer>
-        <h1><span class="orangered-color">FOOD</span> NETWORK</h1>
-        <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+        <div>
+            <h1><span class="orangered-color food ">FOOD</span> NETWORK</h1>
+            <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+            <small>Copy-Right</small>
+        </div>
     </footer>
 </body>
 

@@ -1,0 +1,54 @@
+#Logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+
+nav span a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: blanchedalmond;
+    padding: 10px;
+    width: 100px;
+}
+
+#home {
+    background-color: rgb(11, 255, 84);
+    border-radius: 10px;
+    color: rgb(160, 0, 0);
+}
+
+nav span a:hover {
+    color: rgb(255, 34, 34);
+    background-color: rgb(11, 255, 84);
+    border-radius: 10px;
+}
+
+nav span a:hover:focus:active {
+    color: red;
+    background-color: rgb(255, 188, 177);
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        height: 200px;
+    }
+    #Logo {
+        height: 120px;
+    }
+    nav span a {
+        font-size: 1.2em;
+    }
+    nav span {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+}

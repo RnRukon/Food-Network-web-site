@@ -1,0 +1,24 @@
+.person-content {
+    width: 400px;
+}
+
+.about-me-content-person {
+    width: 500px;
+}
+
+.about-me-content-person img {
+    width: 100%;
+    height: 100%;
+}
+
+#about-me-content {
+    background-image: url(../images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 2em gray;
+    border-radius: 2em;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
